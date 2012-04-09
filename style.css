@@ -1,4 +1,4 @@
-body	{
+body {
 	background-color: #504946;
 	margin: 0px;
 }
@@ -15,7 +15,7 @@ hr {
   margin: 20px 5px;
 }
 
-h1  {
+h1 {
   font-size: 42px;
 	font-weight: bold;
 	color: #504946;
@@ -23,11 +23,11 @@ h1  {
 	text-align: center;
 	padding: 10px;
 }
-#fork_banner  {
+#fork_banner {
   position: absolute;
 }
 
-#wrapper	{
+#wrapper {
 	width: 100%;
 	min-height: 730px;
 	background-color: #fff;
@@ -37,13 +37,13 @@ h1  {
 	box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2), inset 0px -2px 5px rgba(0,0,0,0.2);
 }
 
-#title_div	{
+#title_div {
 	width: 600px;
 	height: 50px;
 	margin: 20px auto 10px auto;
 }
 
-#content	{
+#content {
 	width: 700px;
 	min-height: 530px;
 	margin: 30px auto 40px auto;
@@ -56,32 +56,29 @@ h1  {
 	color: #504946;
 	text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
 }
-#content a  {
+#content a {
   color: #3A90C0;
 }
 
-#content a:hover  {
+#content a:hover {
   text-decoration: underline;
-}
-
-#id_list  {
 }
 
 #id_list li {
   margin: 3px auto;
 }
 
+.items {
+  margin: 40px auto;
+}
+
 #make_list  {
   width: 100%;
-}
-#makelist #items img  {
-  display: block;
-  width: 300px;
-  margin: 5px 30px;
 }
 #make_list span {
   display: block;
 }
+
 #make_list a img {
 	border: 1px solid #BBB;
 	padding: 2px;
