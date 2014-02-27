@@ -1,55 +1,87 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
+  background-color: #504946;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  line-height: 1px;
+  background: #bababa;
+  padding: 0;
+  margin: 20px 5px;
+}
 
 h1 {
-  color: rgba(0, 0, 0, .3);
+  font-size: 42px;
   font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
+  color: #504946;
+  text-shadow: -1px -1px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 10px;
+}
+#fork_banner {
+  position: absolute;
+}
 
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
+#wrapper {
+  width: 100%;
+  min-height: 730px;
+  background-color: #fff;
+  border-top: 1px solid #504946;
+  border-bottom: 1px solid #504946;
+  margin: 50px 0px 50px 0px;
+  box-shadow: inset 0px 2px 5px rgba(0,0,0,0.2), inset 0px -2px 5px rgba(0,0,0,0.2);
+}
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+#title_div {
+  width: 600px;
+  height: 50px;
+  margin: 20px auto 10px auto;
+}
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+#content {
+  width: 700px;
+  min-height: 530px;
+  margin: 30px auto 40px auto;
+  padding: 30px;
+  background-color: #e3e3e3;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 0px rgba(0,0,0,0.05), -1px -1px 0px rgba(0,0,0,0.1);
+  font-size: large;
+  font-weight: bold;
+  color: #504946;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.3);
+}
+#content a {
+  color: #3A90C0;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+#id_list li {
+  margin: 3px auto;
+}
+
+.items {
+  margin: 40px auto;
+}
+
+#make_list  {
+  width: 100%;
+}
+#make_list span {
+  display: block;
+}
+
+#make_list a img {
+  border: 1px solid #BBB;
+  padding: 2px;
 }
