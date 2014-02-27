@@ -38,6 +38,13 @@
 # Reload the browser automatically whenever files change
 activate :livereload
 
+# middleman-deploy
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+  deploy.branch = 'master'
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
