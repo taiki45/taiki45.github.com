@@ -1,4 +1,4 @@
-# Time.zone = "UTC"
+Time.zone = "Asia/Tokyo"
 
 page "/", :layout => :about_layout
 

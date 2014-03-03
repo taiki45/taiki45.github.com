@@ -1,6 +1,6 @@
 ---
 title: new-blog
-date: 2014-03-03 16:23 UTC
+date: 2014-03-03 23:23 Asia/Tokyo
 tags:
 ---
 
