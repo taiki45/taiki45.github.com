@@ -1,0 +1,81 @@
+body {
+  background-color: #fff;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #08c;
+}
+
+a:visited {
+  color: #08c;
+}
+
+a:hover {
+  color: #08c;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #08c;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 75px;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+header > a {
+  color: rgb(244,128,34) !important;
+  text-decoration: none;
+  position: relative;
+  bottom: 20px;
+}
+
+aside {
+  background-color: #fff;
+  color: #696868;
+  padding: 1em;
+  box-shadow: -1px -1px 1px rgba(0,0,0,0.1);
+}
+
+article {
+  padding: 3em 2em;
+  color: rgb(98, 98, 99);
+}
+
+article.even {
+  background-color: rgb(247,245,242);
+}
+
+h2 {
+  color: rgb(69, 73, 77);
+}
+
+h2 > a {
+  color: rgb(69, 73, 77) !important;
+}
+
+h2 > a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  color: rgb(98, 98, 99);
+}
+
+h2 > span.date {
+  font-weight: normal;
+}
+
+img.icon {
+  border-radius: 20px;
+}

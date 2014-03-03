@@ -1,0 +1,29 @@
+---
+title: test
+date: 2014-03-03 13:05 UTC
+tags:
+---
+
+テスト投稿。
+
+ブログの見た目決めるのにけっこう時間かかった。
+日付が見やすくて各記事の境目がわかりやすいようにした。
+
+けっこうこういう見た目のブログ、見る気がしないでもないけど、地道に手で書いてしまった…
+
+あと Vim で日本語打つのだるさ is あるので適当なマークダウンエディタ使う。
+
+```haskell
+main = do text <- getLine
+          putStrLn text
+```
+
+and...
+
+```ruby
+loop do
+  puts 'hello world'
+end
+```
+
+How is inline code? `test value`, `master` branch.
