@@ -14,6 +14,9 @@ memo:
 # Run development server
 bundle exec middleman server
 
+# Add new article to blog
+middleman article TITLE
+
 # Deploy with auto-building contents
 bundle exec middleman deploy
 ```
