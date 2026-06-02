@@ -8,17 +8,33 @@
     <title>Taiki Ono</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" rel="stylesheet">
     <style>
+      :root {
+        color-scheme: light dark;
+      }
       body {
         font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
         font-size: 1.2em;
         margin: auto 3em;
         color: #333;
+        background: #fff;
       }
       li {
         margin: 0.5em auto;
       }
       img {
           border-radius: 5%;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          color: #e4e4e4;
+          background: #1a1a1a;
+        }
+        a:link {
+          color: #58a6ff;
+        }
+        a:visited {
+          color: #bc8cff;
+        }
       }
     </style>
   </head>
